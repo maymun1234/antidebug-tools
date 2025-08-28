@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/TestRunner.dir/tests/test.cpp.o -o TestRunner  -Wl,-rpath,/app/build libSecurityTool.so
