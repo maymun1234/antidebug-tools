@@ -1,0 +1,22 @@
+bu repo dzüenlenecek...
+
+
+main.cpp döngüyü ve aktarımları başlatmak için buradan Initexport çağrılmalı:
+
+
+extern "C" __declspec(dllexport) void InitExport(void)
+typedef void(*InitExportFunc)()
+
+util/task.cpp burada handle meotoduna sürekli çalışmasını isteidğiniz metodları ekleyin.
+
+
+filehashcheck.cpp:
+
+hashlar yanlış çaıkarsa programa yazdıracağını<z kodları buraya ekleyin.
+
+
+helperfunctions:
+burada renkli yazdırma ve diğer yarıdmcı medotlar var.
+
+
+
