@@ -50,6 +50,4 @@ The `SecurityTool` library can be linked against your application to use its sec
 
 The `TestRunner` executable is a simple command-line application that demonstrates how to use the `SecurityTool` library. It initializes the library and prints the license and debugger status.
 
-## Known Issues
 
-*   The file `kılavuz.txt` could not be deleted due to an issue with the tooling handling Unicode characters in filenames. This file can be safely ignored or deleted manually.
